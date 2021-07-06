@@ -24,5 +24,15 @@
     <!--JavaScript Can Change HTML Styles (CSS)-->
     <p id="demoo">JavaScript can change the style of an HTML element.</p>
     <button type="button" onclick="document.getElementById('demoo').style.fontSize='35px'">click me</button>
+    <hr>
+    <!--internal javascript -->
+    <h1>A Web Page</h1>
+    <p id="deo">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+    <script>
+        function myFunction() {
+          document.getElementById("deo").innerHTML = "Paragraph changed.";
+        }
+    </script>
 </body>
 </html>
