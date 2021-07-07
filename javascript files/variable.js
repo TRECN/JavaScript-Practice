@@ -11,3 +11,7 @@ document.getElementById('e').innerHTML=m+k+a;
 var car="volvo";
 var car;
 document.getElementById('f').innerHTML=car;
+//java script Dollar sign
+var $=2;
+var $var=7;
+document.getElementById('g').innerHTML=$+$var;
