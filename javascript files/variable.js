@@ -7,3 +7,7 @@ var a=9,
 k="Rishabh",
 m="hi";
 document.getElementById('e').innerHTML=m+k+a;
+//if we re-declare a javascript variable, it will not lose is value.
+var car="volvo";
+var car;
+document.getElementById('f').innerHTML=car;
