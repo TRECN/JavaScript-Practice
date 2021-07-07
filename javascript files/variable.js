@@ -14,4 +14,4 @@ document.getElementById('f').innerHTML=car;
 //java script Dollar sign
 var $=2;
 var $var=7;
-document.getElementById('g').innerHTML=$+$var;
+document.getElementById('g').innerHTML=$+$var;//same for underscrole
