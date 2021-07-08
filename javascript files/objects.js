@@ -10,5 +10,17 @@ const person = {
     lastName: "Doe",
     age: 50,
     eyeColor: "blue"
-  };
-  document.getElementById('b').innerHTML=person.firstName + " is " + person.age + " years old.";
+};
+  //here we can use either person.firstName or person["firstName"]
+document.getElementById('b').innerHTML=person.firstName + " is " + person.age + " years old.";
+//-------------
+const details={
+    firstName:"Rishabh",
+    lastName:"raj",
+    id:567,
+    fullName: function(){
+        //this keyword is used to access the properties in this object
+        return this.firstName+" "+ this.lastName;
+    }
+};
+document.getElementById('c').innerHTML=details.fullName();
