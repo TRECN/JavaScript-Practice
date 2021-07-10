@@ -41,3 +41,9 @@ document.getElementById('f').innerHTML=text2;
 function myFunction(value){
     text2+="<li>"+value+"</li>";
 }
+
+//adding elements to array 
+fruits.push(
+"grapes"
+);
+document.getElementById('g').innerHTML=fruits;
