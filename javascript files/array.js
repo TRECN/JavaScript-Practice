@@ -23,8 +23,8 @@ document.getElementById('d').innerHTML="changed "+x+"<br>the array: "+cars4;
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let fln=fruits.length;
 let text="<ul>";
-for (const x of fruits){
-    text+=`<li>${x}</li>`;
-}
-text+="</ul>";
+for (let i = 0; i < fln; i++) {
+    text += "<li>" + fruits[i] + "</li>";
+  }
+  text += "</ul>";
 document.getElementById('e').innerHTML=text;
