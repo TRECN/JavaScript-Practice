@@ -14,3 +14,8 @@ document.getElementById('b').innerHTML=cars2;
 //using new keyword
 const cars3 = new Array ("Saab","Volvo","BMW");
 document.getElementById('c').innerHTML=cars3;
+//accessing array elements and changing an arry element
+const cars4 = ["Saab", "Volvo", "BMW"];
+let x = cars[0]; 
+cars[0]="ford";
+document.getElementById('d').innerHTML="changed "+x+"<br>the array: "+cars4;
