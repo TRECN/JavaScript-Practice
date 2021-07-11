@@ -18,3 +18,8 @@ function myfunction(){
     fruits.push("kiwi");
     document.getElementById('e').innerHTML=fruits;
 }
+
+//shift()
+document.getElementById("f").innerHTML = fruits;
+fruits.shift();
+document.getElementById("g").innerHTML = fruits;
