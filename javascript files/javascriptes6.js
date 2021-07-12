@@ -32,3 +32,6 @@ document.getElementById('e').innerHTML=hello();
 //arrow functon returns value by default
 hello = ()=>"rishabh";
 document.getElementById('f').innerHTML=hello();
+//arrow funtion with parameters
+hello=(val)=>"hello"+val;
+document.getElementById('g').innerHTML=hello(" Rishabh");
