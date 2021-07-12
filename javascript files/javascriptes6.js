@@ -51,3 +51,14 @@ window.addEventListener('load',Hello);
 
 //A button object calls the function
 document.getElementById('i').addEventListener('click',Hello);
+
+//arrow function
+var Hello1;
+Hello1=()=>{
+    document.getElementById('l').innerHTML+=this;
+}
+//the window object calls the function:
+window.addEventListener('load',Hello1);
+
+//A button object calls the function
+document.getElementById('k').addEventListener('click',Hello1);
