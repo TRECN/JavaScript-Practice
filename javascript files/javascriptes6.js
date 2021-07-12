@@ -32,6 +32,10 @@ document.getElementById('e').innerHTML=hello();
 //arrow functon returns value by default
 hello = ()=>"rishabh";
 document.getElementById('f').innerHTML=hello();
-//arrow funtion with parameters
+//arrow function with parameters
 hello=(val)=>"hello"+val;
 document.getElementById('g').innerHTML=hello(" Rishabh");
+//arrow function without parenthesis
+//this example show that if you have only one parameter in an Arrow function, you can skip the parenthesis.
+hello=val=>"hello "+val;
+document.getElementById('h').innerHTML=hello("world");
