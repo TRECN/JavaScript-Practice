@@ -39,3 +39,15 @@ document.getElementById('g').innerHTML=hello(" Rishabh");
 //this example show that if you have only one parameter in an Arrow function, you can skip the parenthesis.
 hello=val=>"hello "+val;
 document.getElementById('h').innerHTML=hello("world");
+
+//this keyword in regular function and arrow function
+//regular function
+var Hello;
+Hello=function(){
+    document.getElementById('j').innerHTML+=this;
+}
+//the window object calls the function:
+window.addEventListener('load',Hello);
+
+//A button object calls the function
+document.getElementById('i').addEventListener('click',Hello);
