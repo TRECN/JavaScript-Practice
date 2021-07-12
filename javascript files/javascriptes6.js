@@ -1,3 +1,4 @@
+//let keyword allows you to declare a variable with block scope
 let x=10;
 //here x=10
     {
