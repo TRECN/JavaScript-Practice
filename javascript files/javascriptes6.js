@@ -18,4 +18,14 @@ const y=10;
     }
 document.getElementById('d').innerHTML=y;
 
-
+//Arrow function
+/**
+ * normal function
+ * hello = function(){
+ *  return "Hello world"
+ * }
+ */
+var hello = ()=>{
+    return "hello world";
+}
+document.getElementById('e').innerHTML=hello();
