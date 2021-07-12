@@ -29,3 +29,6 @@ var hello = ()=>{
     return "hello world";
 }
 document.getElementById('e').innerHTML=hello();
+//arrow functon returns value by default
+hello = ()=>"rishabh";
+document.getElementById('f').innerHTML=hello();
