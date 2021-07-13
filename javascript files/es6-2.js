@@ -20,3 +20,18 @@ const fruits=new Map([
     [oranges,200]
 ]);
 document.getElementById('c').innerHTML=fruits.get(apples);
+
+//Set Object
+//Create some variables
+const a="a";
+const b="b";
+const c="c";
+//creating Set
+const letters = new Set();
+//adding values
+letters.add(a);
+letters.add(b);
+letters.add(c);
+//display set size
+document.getElementById('d').innerHTML=letters.size;
+
