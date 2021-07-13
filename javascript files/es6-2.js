@@ -31,7 +31,9 @@ const letters = new Set();
 //adding values
 letters.add(a);
 letters.add(b);
-letters.add(c);
+letters.add('c');
 //display set size
 document.getElementById('d').innerHTML=letters.size;
+document.getElementById('e').innerHTML=typeof letters;
+document.getElementById('f').innerHTML=letters instanceof Set;
 
