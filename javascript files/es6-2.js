@@ -15,8 +15,8 @@ document.getElementById('a').innerHTML=fruit;
 document.getElementById('b').innerHTML=fruit.get(bananas);
 //another way to create a map
 const fruits=new Map([
-    [apples,500],
+    [apples,5000],
     [bananas,300],
     [oranges,200]
 ]);
-document.getElementById('c').innerHTML=fruits;
+document.getElementById('c').innerHTML=fruits.get(apples);
