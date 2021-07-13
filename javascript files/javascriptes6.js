@@ -62,3 +62,12 @@ window.addEventListener('load',Hello1);
 
 //A button object calls the function
 document.getElementById('k').addEventListener('click',Hello1);
+
+
+//For/of
+const car =["BMW", "Volvo","Mini"];
+let text = "";
+for (let x of car){
+    text+=x+" ";
+}
+document.getElementById("m").innerHTML=text;
