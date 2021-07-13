@@ -65,9 +65,18 @@ document.getElementById('k').addEventListener('click',Hello1);
 
 
 //For/of
+//string
 const car =["BMW", "Volvo","Mini"];
 let text = "";
 for (let x of car){
     text+=x+" ";
 }
 document.getElementById("m").innerHTML=text;
+//array
+const language="JavaScript";
+let text1 ="";
+for (let x of language){
+    text1 +=x+' ';
+
+}
+document.getElementById('n').innerHTML=text1;
