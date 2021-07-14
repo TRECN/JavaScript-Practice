@@ -50,6 +50,7 @@ document.getElementById('g').innerHTML=a1;
 
 //default parameter values
 function Function(x,y=10){
+    // y is 10 if not passed or undefined
     return x+y;
 }
 document.getElementById('h').innerHTML=Function(6);
