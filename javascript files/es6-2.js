@@ -54,3 +54,7 @@ function Function(x,y=10){
     return x+y;
 }
 document.getElementById('h').innerHTML=Function(6);
+
+//includes()//returns true or false
+let text22="i live in this world";
+document.getElementById('i').innerHTML=text22.includes("in");
