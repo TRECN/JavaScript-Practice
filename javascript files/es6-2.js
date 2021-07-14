@@ -47,3 +47,9 @@ function sum(...args){
 }
 let a1=sum(5,7,8,9);
 document.getElementById('g').innerHTML=a1;
+
+//default parameter values
+function Function(x,y=10){
+    return x+y;
+}
+document.getElementById('h').innerHTML=Function(6);
