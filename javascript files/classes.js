@@ -22,3 +22,20 @@ class cars{
 }
 let myCars=new cars("ford",2014);
 document.getElementById('c').innerHTML=myCars.age();
+
+//parametric funtion in classes
+class cars3{
+    constructor(name,year){
+        this .year=year;
+        this .name=name;
+    }
+    age(x){
+        return x-this.year;
+
+    }
+}
+let date=new Date();
+let year=date.getFullYear();
+let mycar2=new cars3("rishabh",2014);
+
+document.getElementById('d').innerHTML=mycar2.age(year);
