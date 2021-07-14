@@ -37,3 +37,13 @@ document.getElementById('d').innerHTML=letters.size;
 document.getElementById('e').innerHTML=typeof letters;
 document.getElementById('f').innerHTML=letters instanceof Set;
 
+//(...)rest parameter
+function sum(...args){
+    let sum=0;
+    for(let x of args){
+        sum+=x;
+    }
+    return sum;
+}
+let a1=sum(5,7,8,9);
+document.getElementById('g').innerHTML=a1;
