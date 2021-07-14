@@ -58,3 +58,6 @@ document.getElementById('h').innerHTML=Function(6);
 //includes()//returns true or false
 let text22="i live in this world";
 document.getElementById('i').innerHTML=text22.includes("in");
+
+//startsWith()//returns true or false
+document.getElementById('j').innerHTML=text22.startsWith("j");
