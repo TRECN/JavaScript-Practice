@@ -64,3 +64,7 @@ document.getElementById('j').innerHTML=text22.startsWith("j");
 
 //endsWith()
 document.getElementById('k').innerHTML=text22.endsWith("ld");
+
+//Array.form()
+const arr=Array.from("rishabh");
+document.getElementById('l').innerHTML=arr;
