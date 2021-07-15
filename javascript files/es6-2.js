@@ -61,3 +61,6 @@ document.getElementById('i').innerHTML=text22.includes("in");
 
 //startsWith()//returns true or false
 document.getElementById('j').innerHTML=text22.startsWith("j");
+
+//endsWith()
+document.getElementById('k').innerHTML=text22.endsWith("ld");
