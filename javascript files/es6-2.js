@@ -68,3 +68,11 @@ document.getElementById('k').innerHTML=text22.endsWith("ld");
 //Array.form()
 const arr=Array.from("rishabh");
 document.getElementById('l').innerHTML=arr;
+
+//Array.find()
+const number=[4,6,9,19,55,44];
+let first=number.find(myFunction);
+function myFunction(value, index, array) {
+    return value > 18;
+  }
+document.getElementById('m').innerHTML=first;
